@@ -1,0 +1,112 @@
+//login
+.wrapper{
+  .login-info{
+    margin: 0.5rem auto;
+    padding: 0rem 0.5rem;
+    background-color: #ffffff;
+    font-size: 0.75rem;
+    p{
+      padding: 0.5rem 0;
+      &:first-child{
+        border-bottom: 1px solid #eeeeee;
+      }
+    }
+    input{
+      border: none;
+      margin-left: 1rem;
+      vertical-align: text-bottom;
+    }
+  }
+  .login-btn{
+    background-color: #ffa307;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-size: 0.75rem;
+    line-height: 2;
+  }
+  .text-btn{
+    font-size: 0.4rem;
+    width: 95%;
+    margin: 0 auto;
+    a{
+      color: #666666;
+      margin-top: 0.5rem;
+      &:first-child{
+        float: left;
+      }
+      &:last-child{
+        float: right;
+      }
+    }
+  }
+  .sign-up{
+    text-align: center;
+    color: #666666;
+    font-size: 0.75rem;
+    margin-top: 1.5rem;
+    a{
+      color: #ffa307;
+      border: 1px solid #ffa307;
+      border-radius: 0.1rem;
+    }
+  }
+  .other-login{
+    p{
+      text-align: center;
+      font-size: 0.4rem;
+      margin-top: 2rem;
+      span{
+        position: relative;
+        color: #b2b2b2;
+        &:before{
+          content: "";
+          position: absolute;
+          width: 2rem;
+          height: 1px;
+          background:linear-gradient(to right,#f4f3ef,#cccccc);
+          left: -2rem;
+          top: 0.2rem;
+        }
+        &:after{
+          content: "";
+          position: absolute;
+          width: 2rem;
+          height: 1px;
+          background:linear-gradient(to left,#f4f3ef,#cccccc);
+          right: -2rem;
+          top: 0.2rem;
+        }
+      }
+    }
+    ul{
+      width: 62.5%;
+      margin: 1rem auto;
+      text-align: center;
+      li{
+        width: 30%;
+        float: left;
+        cursor: pointer;
+      }
+      .login-zhifubao{
+        height: 1.75rem;
+        background: url("i/i-zhifubao.png") no-repeat center;
+        background-size: 1.75rem 1.75rem;
+      }
+      .login-qq{
+        height: 1.75rem;
+        background: url("i/i-qq.png") no-repeat center;
+        background-size: 1.75rem 1.75rem;
+      }
+      .login-taobao{
+        height: 1.75rem;
+        background: url("i/i-taobao.png") no-repeat center;
+        background-size: 1.75rem 1.75rem;
+      }
+
+    }
+  }
+}
